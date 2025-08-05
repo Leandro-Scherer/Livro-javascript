@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      leia o preço de um produto e informe as opções de pagamento da loja.
+      Calcule e informe o valor para pagamento a vista com 10% de desconto e o
+      valor em 3x
+    </title>
+  </head>
+  <body>
+    <script>
+      const infpag = alert(
+        "O pagamento pode ser feito á vista com 10% de desconto ou em 3x"
+      );
+      const preco = Number(prompt("Qual o preço do produto? "));
+      const avista = preco - preco * 0.1;
+      alert(`A vista o valor fica em R$ ${avista.toFixed(2)}`);
+      const tresvezes = preco / 3;
+      alert(`Em 3x o valor fica em R$ ${tresvezes.toFixed(2)}`);
+    </script>
+  </body>
+</html>

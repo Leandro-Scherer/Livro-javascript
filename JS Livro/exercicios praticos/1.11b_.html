@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      leia o valor total de uma conta e quantos clientes vao paga-la. calcule e
+      informe o valor a ser pago por cliente.
+    </title>
+  </head>
+  <body>
+    <script>
+      const valortotal = Number(prompt("Qual o valor total da conta? "));
+      const clientes = Number(prompt("Quantas pessoas vão pagar? "));
+      const calculo = (valortotal/clientes)
+      alert(`O valor a ser pago por cliente é R$ ${calculo.toFixed(2)}`)
+    </script>
+  </body>
+</html>
