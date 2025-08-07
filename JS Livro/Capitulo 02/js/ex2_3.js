@@ -1,7 +1,7 @@
 //cria referência ao form e aos elementos de resposta (pelo seu id)
 const frm = document.querySelector("form");
 const resp1 = document.querySelector("#outresp1");
-const resp2 = document.querySelector("#outresp1");
+const resp2 = document.querySelector("#outresp2");
 const resp3 = document.querySelector("#outresp3");
 //cria um "ouvinte" de evento,acionado quando o botao submit for clicado
 frm.addEventListener("submit", (e) => {
