@@ -6,7 +6,7 @@
     <title>Um supermecado esta com uma promocao</title>
   </head>
   <body>
-    <h1>Supermecado JS</h1>
+    <h1>Supermercado JS</h1>
     <form>
       <p>
         Produto:
@@ -14,9 +14,12 @@
       </p>
       <p>
         Preço R$:
-        <input type="text" id="inPreco" required />
+        <input type="number" id="inPreco"  step="0.01" required />
       </p>
+      <input type="submit" value="Ver Promoção" />
     </form>
-    <script src=""></script>
+    <h3 id="outresp1"></h3>
+    <h3 id="outresp2"></h3>
+    <script src="js/2.10c.js"></script>
   </body>
 </html>
