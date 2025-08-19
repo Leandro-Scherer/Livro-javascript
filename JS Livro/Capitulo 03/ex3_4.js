@@ -5,4 +5,4 @@ const pesoGr = pesoKG * 1000; //cria variavel auxiliar pesoGr
 const duracao = Math.floor(pesoGr / consumo); //calculo das respostas
 const sobra = pesoGr % consumo;
 console.log(`Duração: ${duracao} dias`); //dados de saida
-console.log(`Sobra: ${sobra} gr `);
+console.log(`Sobra: ${sobra} gr `)
